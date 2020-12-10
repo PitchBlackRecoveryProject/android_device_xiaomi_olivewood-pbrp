@@ -19,7 +19,9 @@ PRODUCT_RELEASE_NAME := olivelite
 
 # Inherit from this configs
 $(call inherit-product, build/target/product/embedded.mk)
-$(call inherit-product, vendor/omni/config/common.mk)
+
+# Inherit common product files.
+$(call inherit-product, vendor/pb/config/common.mk)
 
 #Treble Support
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common_32.mk)

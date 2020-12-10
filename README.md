@@ -1,21 +1,20 @@
-TWRP Device configuration for Xiaomi Redmi 8 Device
-============================================================
+Xiaomi Redmi 8A (OliveLite)
+=============
+This branch is for building PBRP Recovery for Xiaomi Redmi 8A
+
+
+<img src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-8a-0.jpg" width="350" height="350"/>
+
 Basic   | Spec Sheet
--------:|:-------------------------
-CPU     | Dual-core 1.95 GHz ARM® Cortex™ A53 and hexa-core 1.45 GHz ARM® Cortex™ A53
-CHIPSET | Qualcomm Snapdragon 439 (SDM439)
-GPU     | Adreno 505
-Memory  | 3/4 GB
-Shipped Android Version | 9.0
-Storage | 32/64 GB
-MicroSD | Up to 512 GB
-Battery | 5000 mAh (non-removable)
-Display | 720 x 1520 pixels, 6.22"
-Rear Camera  | 12.0 MP LED-Flash
-Rear Depth Sensor  | 2.0 MP
-Front Camera | 8.0 MP
-Release Date | Oct 2019
-
-![Redmi_8](https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-8/c3i-header.png "Redmi_8")
-
-Note : System/Vendor prebuilt files extracted from device or taken from [here.](https://github.com/AndroidDumps/xiaomi_olive_dump/)
+-------------:|:-------------------------
+Chipset       | Qualcomm SDM439 Snapdragon 439 (12 nm)
+CPU           | Octa-core (4x1.95 GHz Cortex-A53 & 4x1.45 GHz Cortex A53)
+GPU           | Adreno 505
+Memory        | 2GB RAM
+Shipped OS    | Android 9.0 Pie (with MIUI 10) ; Planned Upgrade to Android 10 (MIUI 12)
+Storage       | 32GB
+Battery       | Li-Po 5000 mAh, non-removable, Qcom Fast Charge
+Display       | IPS LCD, 6.22" 720 x 1520 pixels, 19:9 ratio (~270 ppi density)
+Main Camera   | 12 MP, f/1.8, (wide), 1/2.55", 1.4µm, dual pixel PDAF [IMX 363]
+Selfie Camera | 8 MP, f/2.0, 1/4", 1.12µm
+Sensors       | Accelerometer, proximity,gyro
