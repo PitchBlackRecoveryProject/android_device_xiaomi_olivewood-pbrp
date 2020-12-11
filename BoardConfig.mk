@@ -1,4 +1,4 @@
-PLATFORM_PATH := device/xiaomi/olivelite
+PLATFORM_PATH := device/xiaomi/olivewood
 
 LC_ALL=C
 ALLOW_MISSING_DEPENDENCIES=true
@@ -43,8 +43,8 @@ TARGET_PREBUILT_KERNEL := $(PLATFORM_PATH)/prebuilt/kernel
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/recovery.fstab
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_olivelite
-TARGET_RECOVERY_DEVICE_MODULES := libinit_olivelite
+TARGET_INIT_VENDOR_LIB := libinit_olivewood
+TARGET_RECOVERY_DEVICE_MODULES := libinit_olivewood
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
 # QCOM Stuff
@@ -108,7 +108,7 @@ PLATFORM_VERSION := 16.1.0
 #BOARD_SUPPRESS_SECURE_ERASE := true
 # OTA
 
-TARGET_OTA_ASSERT_DEVICE := olivelite
+TARGET_OTA_ASSERT_DEVICE := olivewood
 
 # Treble
 #BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
