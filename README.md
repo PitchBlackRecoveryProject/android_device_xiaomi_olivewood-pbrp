@@ -1,4 +1,4 @@
-Xiaomi Redmi 8A (OliveLite)
+Xiaomi Redmi 8A (Olivewood)
 =============
 This branch is for building PBRP Recovery for Xiaomi Redmi 8A
 
