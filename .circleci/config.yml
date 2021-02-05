@@ -10,10 +10,11 @@ jobs:
       VENDOR: 'xiaomi'
       CODENAME: 'olivewood'
       FLAVOR: 'eng'
-      #TEST_BUILD: 'true'
-      PB_OFFICIAL: 'true'
+      TEST_BUILD: 'true'
+      #PB_OFFICIAL: 'true'
       CHANGELOG: |
-        - Initial Build
+        - Bump to 3.5.0
+        - Update Prebuilts to v11.0.2.0 QCQINXM
     working_directory: /home/builder/pitchblack
     steps:
       - run:
