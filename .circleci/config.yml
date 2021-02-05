@@ -10,8 +10,8 @@ jobs:
       VENDOR: 'xiaomi'
       CODENAME: 'olivewood'
       FLAVOR: 'eng'
-      TEST_BUILD: 'true'
-      #PB_OFFICIAL: 'true'
+      #TEST_BUILD: 'true'
+      PB_OFFICIAL: 'true'
       CHANGELOG: |
         - Bump to 3.5.0
         - Update Prebuilts to v11.0.2.0 QCQINXM
